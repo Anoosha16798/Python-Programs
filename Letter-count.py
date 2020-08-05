@@ -9,3 +9,4 @@ let=input("which letter do you wanna count?:").lower()
 message=message.lower()
 res=message.count(let)
 print(res) 
+#Done
