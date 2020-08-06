@@ -1,0 +1,22 @@
+print("Welcome")
+num=[]
+num1=float(input("Enter first grade: "))
+num2=float(input("Enter first grade: "))
+num3=float(input("Enter first grade: "))
+num4=float(input("Enter first grade: "))
+num.append(num1)
+num.append(num2)
+num.append(num3)
+num.append(num4)
+print(num)
+print(num.sort(reverse=True))
+rem1=num.pop()
+print(rem1)
+rem1=num.pop()
+print(rem1)
+print(sorted(num,reverse=True))
+'''
+nums = str(input("Enter list of grades separated by , : "))
+nums.split(",")
+print(sorted(nums,reverse=True))
+'''
