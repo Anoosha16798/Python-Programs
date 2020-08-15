@@ -23,3 +23,10 @@ replace = str(input(f"Who will take{injured} place now :")).title()
 res[injured]=replace
 for key, values in res.items():
     print(f"{key} : {values}")
+'''
+name =["abc", "xyz"]
+num = [1,4]
+for nam,n in zip(name,num):
+    print(nam.title() +":"+str(n))
+
+'''
