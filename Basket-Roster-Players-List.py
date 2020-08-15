@@ -1,4 +1,4 @@
-
+#10th program
 print("Welcome!")
 res = {}
 Point_Guard = str(input("Enter your point guard name: ")).title()
@@ -11,6 +11,7 @@ Power_Forward = str(input("Enter your Power_Forward name: ")).title()
 res["Power_Forward"] = Power_Forward
 Center = str(input("Enter your Center name: ")).title()
 res["Center"] = Center
+
 
 for key,values in res.items():
     print(f"{key} : {values}")
