@@ -10,3 +10,4 @@ message=message.lower()
 res=message.count(let)
 print(res) 
 #Done
+print("Count Successful")
