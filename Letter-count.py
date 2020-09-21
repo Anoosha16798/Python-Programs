@@ -1,4 +1,6 @@
 #This program counts no of letter present in the message
+
+print("Letter Count Program")
 print(" Welcome!")
 name = input("What is your name:").title().strip()
 print("Hello",name,"!")
@@ -10,4 +12,3 @@ message=message.lower()
 res=message.count(let)
 print(res) 
 #Done
-print("Count Successful")
